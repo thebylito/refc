@@ -1,0 +1,20 @@
+{
+  "name": "refc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Welington da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.0",
+    "mkdirp": "^0.5.1"
+  },
+  "bin": {
+    "refc": "./index.js"
+  }
+}

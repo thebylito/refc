@@ -2,12 +2,16 @@ const inquirer = require('inquirer');
 
 const choices = [
   {
-    name: 'Nova tela',
+    name: 'Nova Screen',
     value: 'newScreen',
   },
   {
-    name: 'Novo duck - (Reducer, Types e Creators)',
+    name: 'Novo Duck - (Reducer, Types e Creators)',
     value: 'newDuck',
+  },
+  {
+    name: 'Nova Saga - (Actions)',
+    value: 'newSaga',
   },
 ];
 

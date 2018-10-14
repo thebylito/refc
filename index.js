@@ -5,7 +5,7 @@ const { createFile, createFolder } = require('./utils');
 const path = require('path');
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { screen } = require('./generate');
+const { screen, duck } = require('./generate');
 const questions = require('./questions');
 
 program
@@ -21,6 +21,8 @@ program
     switch (generateType) {
       case 'newScreen':
         screen();
+      case 'newDuck':
+        duck();
     }
   });
 

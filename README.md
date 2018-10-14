@@ -9,15 +9,15 @@ Um simples gerador de arquivos para react-native.
 ## Instruções
 
 ### 1 -> Após instalado, na raiz do projeto digite:
-```refc create```
+`refc create`
 
 Após isso o CLI já ira fazer algumas perguntas.
 
-## Estrutura gerada
-<img src="https://github.com/thebylito/refc/raw/master/screenshots/shot1.png" height="350">
-
 ## O que o CLI pode gerar
 <img src="https://github.com/thebylito/refc/raw/master/screenshots/shot2.png" height="67">
+
+## Estrutura gerada
+<img src="https://github.com/thebylito/refc/raw/master/screenshots/shot1.png" height="350">
 
 ### OBS
 - Sempre iniciar o CLI a partir do diretório root do projeto (lá onde fica seu package.json)
@@ -29,3 +29,4 @@ Após isso o CLI já ira fazer algumas perguntas.
 - Fazer uma documentação descente.
 
 ### Agradecimentos:
+- react-native-create-library

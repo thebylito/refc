@@ -1,10 +1,5 @@
 #!/usr/bin/env node
 const program = require('commander');
-const { execSync } = require('child_process');
-const { createFile, createFolder } = require('./utils');
-const path = require('path');
-const fs = require('fs');
-const inquirer = require('inquirer');
 const { screen, duck, saga } = require('./generate');
 const questions = require('./questions');
 

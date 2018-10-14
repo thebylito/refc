@@ -4,26 +4,26 @@ module.exports = {
 import { View, Text } from 'react-native';
 import styles from './styles';
 
-class ${className} extends React.Component {
-  state = { className: '${className}' };
+class ${className}Screen extends React.Component {
+  state = { screenName: '${className}' };
 
   componentDidMount() {}
 
   render() {
-    const { className } = this.state;
+    const { screenName } = this.state;
     return (
       <View style={styles.container}>
-        <Text>{className}</Text>
+        <Text>{ screenName }</Text>
       </View>
     );
   }
 }
 
-${className}.navigationOptions = {
+${className}Screen.navigationOptions = {
   title: '${className}',
 };
 
-export default ${className};
+export default ${className}Screen;
 `;
   },
 };

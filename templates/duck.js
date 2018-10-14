@@ -30,8 +30,9 @@ export default function ${duckName}(state = initialState, action) {
 }
 
 export const Creators = {
-  get${duckToUpper}Request: () => ({
+  get${duckToUpper}Request: ({ field1, field2 }) => ({
     type: Types.GET_REQUEST,
+    payload: { field1, field2 },
   }),
   get${duckToUpper}Success: data => ({
     type: Types.GET_SUCCESS,

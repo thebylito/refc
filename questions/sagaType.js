@@ -2,12 +2,12 @@ const inquirer = require('inquirer');
 
 const questions = [
   {
-    name: 'duckName',
+    name: 'sagaName',
     type: 'input',
-    message: 'Nome da Duck (lowercase):',
+    message: 'Nome da Saga (lowercase):',
     validate: (input) => {
       if (/^([A-Za-z\d])+$/.test(input)) return true;
-      else return 'O nome da duck só pode ter letras e numeros';
+      else return 'O nome da saga só pode ter letras e numeros';
     },
   },
 ];

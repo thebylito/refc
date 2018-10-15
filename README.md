@@ -24,9 +24,9 @@ Após isso o CLI já ira fazer algumas perguntas.
 
 
 ### TO-DO:
-- Reconhecer o diretório root do projeto automaticamente.
-- Adicionar mais funcionalidades.
-- Fazer uma documentação descente.
+<ul><li> [x] Reconhecer o diretório root do projeto automaticamente.</li></ul>
+<ul><li> [ ] Adicionar mais funcionalidades.</li></ul>
+<ul><li> [ ] Fazer uma documentação descente.</li></ul>
 
 ### Agradecimentos:
 - react-native-create-library

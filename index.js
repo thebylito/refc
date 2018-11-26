@@ -9,12 +9,12 @@ const pkg = require('./package.json');
 updateNotifier({ pkg }).notify();
 
 program
-  .version('1.0.4')
+  .version('1.0.5')
   .description('Cli gerador de arquivos para react-native :)');
 
 program
   .command('create')
-  .alias('a')
+  .alias('c')
   .description('Gere arquivos para seu querido app')
   .action(async () => {
     try {

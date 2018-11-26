@@ -18,7 +18,7 @@ function* get${sagaToUpper}({ payload: { field1, field2 } }) {
 }
 
 export default function* ${sagaToUpper}Sagas() {
-  yield all([takeLatest(BooksTypes.GET_REQUEST, get${sagaToUpper})]);
+  yield all([takeLatest(${sagaToUpper}Types.GET_REQUEST, get${sagaToUpper})]);
 }
 `;
   },

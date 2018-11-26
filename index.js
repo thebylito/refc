@@ -9,7 +9,7 @@ const pkg = require('./package.json');
 updateNotifier({ pkg }).notify();
 
 program
-  .version('1.0.3')
+  .version('1.0.4')
   .description('Cli gerador de arquivos para react-native :)');
 
 program
